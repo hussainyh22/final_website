@@ -4222,8 +4222,8 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
+  background-color: white;
+  border: 2px solid black;
   border-radius: 0.25rem;
 }
 
@@ -4297,6 +4297,7 @@ input[type="button"].btn-block {
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    
   }
   .navbar-expand-md .navbar-nav {
     -ms-flex-direction: row;
