@@ -40,7 +40,8 @@ $(".client_owl-carousel").owlCarousel({
     }
 });
 
-
+// Initiate the wowjs
+new WOW().init();
 
 
 /** google_map js **/
