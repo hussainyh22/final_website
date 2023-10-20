@@ -201,11 +201,11 @@ body {
 
 
 /* Display three items side by side */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .related-product-item {
       flex-basis: calc(33.3333% - 20px);
   }
-}
+} */
 
 /* Add this style for the bottom slider */
 .bottom-carousel-container {
@@ -434,6 +434,7 @@ body {
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
+  margin-top: 50px;
   -webkit-box-align: center;
   -ms-flex-align: center;
       align-items: center;
@@ -600,7 +601,7 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  margin-left:30px;
+  margin-left:20px;
   display:flex;
   flex-wrap: nowrap;
 
@@ -671,6 +672,9 @@ a:focus {
   }
   .client:hover::after {
     width: 65px;
+  }
+  .contact:hover::after {
+    width: 98px;
   }
   
   
@@ -1130,7 +1134,7 @@ a:focus {
   bottom: 0;
   right: 0;
   width: calc(100% - 45px);
-  height: 450px;
+  height: 80%;
   background-color: #01161c;
   z-index: 1;
   opacity: 0.45;
