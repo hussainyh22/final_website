@@ -201,11 +201,11 @@ body {
 
 
 /* Display three items side by side */
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .related-product-item {
       flex-basis: calc(33.3333% - 20px);
   }
-} */
+}
 
 /* Add this style for the bottom slider */
 .bottom-carousel-container {
@@ -275,7 +275,7 @@ body {
 /** banner section **/
 
 .full_bg .slider_main {
-  background: url(../images/IMG_20230415_221528.jpg);
+  /* background: url(../images/IMG_20230415_221528.jpg); */
   background-size: 100% auto;
   background-position: top center;
   background-repeat: no-repeat;
@@ -434,7 +434,6 @@ body {
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
-  margin-top: 50px;
   -webkit-box-align: center;
   -ms-flex-align: center;
       align-items: center;
@@ -556,7 +555,7 @@ a:focus {
 }
 
 .header_section{
-  overflow:hidden;
+  /* overflow:hidden; */
   box-shadow:2px 1px 3px;
   width:100%;
   position:fixed;
@@ -601,7 +600,7 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  margin-left:20px;
+  margin-left:30px;
   display:flex;
   flex-wrap: nowrap;
 
@@ -625,6 +624,42 @@ a:focus {
   color:white;
   background-color: #03497b;
 } */
+/* hover buttons */
+/* Navbar dropdown button styling */
+.navbar .dropdown-toggle {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border: 1px solid #007BFF;
+  border-radius: 4px;
+  padding: 8px 16px; /* Increased padding for better touch/click experience */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .dropdown-toggle:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+  color: #FFFFFF; /* Text color on hover */
+}
+
+/* Dropdown menu styling */
+.navbar .dropdown-menu {
+  background-color: #007BFF;
+  border: 1px solid #0056b3; /* Slightly darker border color */
+  border-radius: 4px;
+  padding: 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow for the menu */
+}
+
+.navbar .dropdown-item {
+  color: #FFFFFF;
+  padding: 8px 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+  color: #FFFFFF; /* Text color on hover */
+}
 
 /* Apply hover styles only on screens larger than 768px */
 @media (min-width: 991px) {
@@ -672,9 +707,6 @@ a:focus {
   }
   .client:hover::after {
     width: 65px;
-  }
-  .contact:hover::after {
-    width: 98px;
   }
   
   
@@ -1134,7 +1166,7 @@ a:focus {
   bottom: 0;
   right: 0;
   width: calc(100% - 45px);
-  height: 80%;
+  height: 450px;
   background-color: #01161c;
   z-index: 1;
   opacity: 0.45;
@@ -1547,4 +1579,27 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+/* Center and style the text within .carousel-caption */
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Increase the font size for h3 and p within .carousel-caption */
+.carousel-caption h3 {
+    font-size: 36px; /* Adjust the font size as needed */
+}
+
+.carousel-caption p {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Style the buttons within .carousel-caption */
+.carousel-caption .btn {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
 /*# sourceMappingURL=style.css.map */
