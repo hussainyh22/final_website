@@ -275,7 +275,7 @@ body {
 /** banner section **/
 
 .full_bg .slider_main {
-  background: url(../images/IMG_20230415_221528.jpg);
+  /* background: url(../images/IMG_20230415_221528.jpg); */
   background-size: 100% auto;
   background-position: top center;
   background-repeat: no-repeat;
@@ -555,7 +555,7 @@ a:focus {
 }
 
 .header_section{
-  overflow:hidden;
+  /* overflow:hidden; */
   box-shadow:2px 1px 3px;
   width:100%;
   position:fixed;
@@ -624,6 +624,42 @@ a:focus {
   color:white;
   background-color: #03497b;
 } */
+/* hover buttons */
+/* Navbar dropdown button styling */
+.navbar .dropdown-toggle {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border: 1px solid #007BFF;
+  border-radius: 4px;
+  padding: 8px 16px; /* Increased padding for better touch/click experience */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .dropdown-toggle:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+  color: #FFFFFF; /* Text color on hover */
+}
+
+/* Dropdown menu styling */
+.navbar .dropdown-menu {
+  background-color: #007BFF;
+  border: 1px solid #0056b3; /* Slightly darker border color */
+  border-radius: 4px;
+  padding: 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow for the menu */
+}
+
+.navbar .dropdown-item {
+  color: #FFFFFF;
+  padding: 8px 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+  color: #FFFFFF; /* Text color on hover */
+}
 
 /* Apply hover styles only on screens larger than 768px */
 @media (min-width: 991px) {
