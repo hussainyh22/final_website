@@ -274,16 +274,15 @@ body {
 
 /** banner section **/
 
-.full_bg .slider_main {
+ .slider_main {
   /* background: url(../images/IMG_20230415_221528.jpg); */
   background-size: 100% auto;
+   /* position:relative; */
+   /* margin-top: 0px;
+   top:0px; */
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.slider_main {
-  padding-top: 10%;
 }
 
 .relative {
@@ -374,9 +373,10 @@ body {
 #carouselExampleIndicators .carousel-control-prev,
 #carouselExampleIndicators .carousel-control-next {
   width: 70px;
+  margin:80px;
   height: 70px;
   background-color: #ffffff;
-  color: #02306f;
+  color: #024270;
   font-size: 35px;
   opacity: 1;
   border-radius: 50px;
@@ -387,7 +387,7 @@ body {
 #carouselExampleIndicators .carousel-control-next:hover,
 #carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
-  background-color: #02306f;
+  background-color: #024270;
   color: #fff;
 }
 
@@ -600,7 +600,7 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  margin-left:30px;
+  margin-left:20px;
   display:flex;
   flex-wrap: nowrap;
 
@@ -707,6 +707,9 @@ a:focus {
   }
   .client:hover::after {
     width: 65px;
+  }
+  .contact:hover::after {
+    width: 98px;
   }
   
   
