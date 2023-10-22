@@ -643,22 +643,29 @@ a:focus {
 
 /* Dropdown menu styling */
 .navbar .dropdown-menu {
+  display: none; /* Initially hide the dropdown */
   background-color: #007BFF;
-  border: 1px solid #0056b3; /* Slightly darker border color */
+  border: 1px solid #0056b3;
   border-radius: 4px;
   padding: 8px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow for the menu */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbar .dropdown-item {
+/* Show the dropdown on hover */
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style for the dropdown items */
+.navbar .dropdown-menu .dropdown-item {
   color: #FFFFFF;
   padding: 8px 16px;
   transition: background-color 0.3s, color 0.3s;
 }
 
-.navbar .dropdown-item:hover {
-  background-color: #0056b3; /* Darker background color on hover */
-  color: #FFFFFF; /* Text color on hover */
+/* Darker background color on hover */
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #0056b3;
 }
 
 /* Apply hover styles only on screens larger than 768px */
