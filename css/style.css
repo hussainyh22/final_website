@@ -1441,7 +1441,7 @@ a:focus {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.contact_section .form_container .contact_box a:hover, span:hover{
+.contact_section .form_container .contact_box a:hover,.contact_section .form_container .contact_box span:hover{
   color:#137BC2;
 }
 .contact_section .form_container .contact_box{
