@@ -600,7 +600,7 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  margin-left:20px;
+  margin-left:5px;              /* Set this later*/
   display:flex;
   flex-wrap: nowrap;
 
@@ -627,25 +627,26 @@ a:focus {
 /* hover buttons */
 /* Navbar dropdown button styling */
 .navbar .dropdown-toggle {
-  background-color: #007BFF;
-  color: #FFFFFF;
+  color: #000000;
+  /* background-color: #007BFF;
   border: 1px solid #007BFF;
-  border-radius: 4px;
+  border-radius: 4px; */
   padding: 8px 16px; /* Increased padding for better touch/click experience */
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .navbar .dropdown-toggle:hover {
-  background-color: #0056b3; /* Darker background color on hover */
-  color: #FFFFFF; /* Text color on hover */
+  background-color: #191919; /* Darker background color on hover */
+  color: #000000; /* Text color on hover */
 }
 
 /* Dropdown menu styling */
 .navbar .dropdown-menu {
   display: none; /* Initially hide the dropdown */
-  background-color: #007BFF;
+  background-color: #fcfcfc;
   border: 1px solid #0056b3;
+   color: #0b0b0b;
   border-radius: 4px;
   padding: 8px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -658,7 +659,7 @@ a:focus {
 
 /* Style for the dropdown items */
 .navbar .dropdown-menu .dropdown-item {
-  color: #FFFFFF;
+  color: #000000;
   padding: 8px 16px;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -666,6 +667,7 @@ a:focus {
 /* Darker background color on hover */
 .navbar .dropdown-menu .dropdown-item:hover {
   background-color: #0056b3;
+  color:white;
 }
 
 /* Apply hover styles only on screens larger than 768px */
@@ -1425,9 +1427,43 @@ a:focus {
 
 .contact_section .form_container {
   margin-right: 15px;
+  padding:30px;
+  color:#000000;
+  border-radius: 10px;
+  text-align:start;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 2px 6px 6px 6px rgba(0, 0, 0, 0.1);
+  
+}
+.text-black
+{
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.contact_section .form_container input {
+.contact_section .form_container .contact_box a:hover, span:hover{
+  color:#137BC2;
+}
+.contact_section .form_container .contact_box{
+  color: #000000;
+
+}
+.contact_section .form_container .social_info
+{
+  text-align: center;
+  font-size: 30px;
+}
+.contact_section .form_container .social_info a
+{
+  padding:10px;
+  color: #000000;
+}
+.contact_section .form_container  a:hover
+{
+  color:#137BC2;
+}
+
+/* .contact_section .form_container input {
   width: 100%;
   border: none;
   height: 50px;
@@ -1437,9 +1473,9 @@ a:focus {
   color: #101010;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-}
+} */
 
-.contact_section .form_container input::-webkit-input-placeholder {
+/* .contact_section .form_container input::-webkit-input-placeholder {
   color: #476269;
 }
 
@@ -1477,7 +1513,7 @@ a:focus {
           transform: translateY(-3px);
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
-}
+} */
 
 .contact_section .map_container {
   height: 420px;
@@ -1541,7 +1577,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a:hover {
-  color: #01233b;
+  color: #060606;
 }
 
  .info_social {
