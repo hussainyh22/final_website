@@ -7,6 +7,11 @@ body {
 }
 
 /* Individual product page */
+
+.text-bold
+{
+  font-weight: bold;
+}
 .container-prod {
   /* margin-top:400px; */
   font-family: Arial, sans-serif;
