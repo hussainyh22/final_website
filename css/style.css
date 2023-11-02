@@ -606,7 +606,7 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  margin-left:5px;              /* Set this later*/
+  margin-left:25px;              
   display:flex;
   flex-wrap: nowrap;
 
