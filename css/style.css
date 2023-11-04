@@ -1473,58 +1473,6 @@ a:focus {
   color:#137BC2;
 }
 
-/* .contact_section .form_container input {
-  width: 100%;
-  border: none;
-  height: 50px;
-  margin-bottom: 25px;
-  padding-left: 15px;
-  outline: none;
-  color: #101010;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
-} */
-
-/* .contact_section .form_container input::-webkit-input-placeholder {
-  color: #476269;
-}
-
-.contact_section .form_container input:-ms-input-placeholder {
-  color: #476269;
-}
-
-.contact_section .form_container input::-ms-input-placeholder {
-  color: #476269;
-}
-
-.contact_section .form_container input::placeholder {
-  color: #476269;
-}
-
-.contact_section .form_container input.message-box {
-  height: 120px;
-}
-
-.contact_section .form_container button {
-  border: none;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 12px 55px;
-  background-color: #40a798;
-  color: #ffffff;
-  border-radius: 5px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  border: none;
-}
-
-.contact_section .form_container button:hover {
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
-  -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
-} */
-
 .contact_section .map_container {
   height: 420px;
   overflow: hidden;
