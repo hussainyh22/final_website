@@ -1,6 +1,11 @@
 @media (max-width: 1300px) {}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+
+.services .services_box h3 {
+    font-size: 16px;
+}
+}
 
 @media (max-width: 992px) {
   .hero_area {
@@ -26,9 +31,27 @@
     width: calc(100% - 45px);
     height: calc(100% - 45px);
   }
+  .services .services_box h3 {
+    font-size: 17px;
+}
+.contact_section .form_container {
+  padding-left: 30;
+  /* padding-right: 100 auto; */
+}
+.contact_section .form_container .contact_box {
+  /* padding-left: 30; */
+  margin-right:0;
+}
 }
 
 @media (max-width: 768px) {
+  .slider_main .carousel-item .text-center h3 ,.slider_main .carousel-caption h3{
+    font-size: 4vw;
+  }
+  .slider_main .carousel-caption p{
+    font-size: 3vw;
+  }
+
   .about_section .img-box {
     margin-bottom: 45px;
     padding: 0 25px 25px 0;
@@ -47,17 +70,25 @@
   }
 
   .contact_section .form_container {
-    padding: 0;
+    padding-left: 30;
     margin: 0;
   }
 
 }
 
 @media (max-width: 576px) {
-  .header_section .header_bottom {
+  /* .header_section .header_bottom {
     background: linear-gradient(120deg, #ffffff 125px, #40a798 125px);
     padding: 15px 0;
+  } */
+  .slider_main .carousel-item .text-center h3 ,.slider_main .carousel-caption h3{
+    font-size: 4vw;
+    padding:0px;
   }
+  .slider_main .carousel-caption p{
+    font-size: 3vw;
+  }
+  
 
   .header_section .header_top .contact_nav a span {
     display: none;
@@ -78,20 +109,44 @@
     margin-top: 0;
     margin-left: 10px;
   }
+  /*products*/
+  .services .services_box h3 {
+    font-size: 16px;
+  }
+  /* .margin_bott {
+      padding-bottom: 95px;
+  } */
 }
 
 @media (max-width: 480px) {
-  .slider_section .detail-box h1 {
-    font-size: 2rem;
+  /* .slider_section .detail-box h1 { */
+    .slider_main .carousel-item .text-center h3 ,.slider_main .carousel-caption h3{
+    font-size: 4vw;
+    padding: 0px;
+  }
+  .slider_main .carousel-caption p{
+    font-size: 2.5vw;
   }
 
+  .slider_main .carousel-caption .text-center{
+  padding:0 auto;
+}
 
 }
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+  .slider_main .carousel-item .text-center h3 ,.slider_main .carousel-caption h3{
+    font-size: 4vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .slider_main .carousel-caption p{
+    font-size: 2.5vw;
+  }
+}
 
-@media (max-width: 376px) {}
-
+@media (max-width: 376px) {
+}
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
