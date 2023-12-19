@@ -32,6 +32,8 @@
   <link href="css/responsive.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css.map">
 
+  <link href="css/animate.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -169,14 +171,14 @@
     <div class="container  ">
       <div class="row">
         <div class="col-md-5 ">
-          <div class="img-box">
-            <img src="images/Technicain with workshop.jpg" alt="">
+          <div class="img-box ">
+            <img src="images/Technicain with workshop.jpg" alt="Technician working in the workshop">
           </div>
         </div>
         <div class="col-md-7">
           <div class="detail-box">
             <div class="heading_container">
-              <h2>
+              <h2 class = "animated slideInRight">
                 About <span>Us</span>
               </h2>
             </div>
@@ -208,10 +210,10 @@
       <div class="container">
         <div class="box_container">
           <div class="row">
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 wow fadeIn" data-wow-delay="0.1s">
               <div class="box">
                 <div class="num-box">
-                  <span id="countDay" class="count">
+                  <span id="countDay" class="count" data-toggle="counter-up">
                     29
                   </span>
                 </div>
@@ -220,10 +222,10 @@
                 </h3>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 wow fadeIn" data-wow-delay="0.4s">
               <div class="box">
                 <div class="num-box">
-                  <span id="countSec" class="count">
+                  <span id="countSec" class="count" data-toggle="counter-up">
                     275
                   </span>
                 </div>
@@ -232,10 +234,10 @@
                 </h3>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 wow fadeIn " data-wow-delay="0.9s">
               <div class="box">
                 <div class="num-box">
-                  <span id="countMin" class="count">
+                  <span id="countMin" class="count" data-toggle="counter-up">
                     154
                   </span>
                 </div>
@@ -244,10 +246,10 @@
                 </h3>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 wow fadeIn" data-wow-delay="1.2s">
               <div class="box">
                 <div class="num-box">
-                  <span id="countHour" class="count">
+                  <span id="countHour" class="count"  data-toggle="counter-up">
                     30
                   </span>
                 </div>
@@ -276,42 +278,42 @@
       <div class="row">
         <div class="col-md-4 col-sm-6 ">
           <div class="core_values_box text_align_center">
-            <i><img width="110px" src="images/trust (2).png" alt="#" /></i>
+            <i><img width="110px" src="images/integrity_128.png" alt="#" /></i>
             <h3>1.Integrity:</h3>
             <p>Upholding the highest standards of honesty and transparency in all our dealings and services.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 ">
           <div class="core_values_box text_align_center">
-            <i><img src="images/trust (2).png" alt="#" /></i>
+            <i><img src="images/excellence_128.png" alt="#" /></i>
             <h3>2.Excellence:</h3>
             <p>Striving for unparalleled quality and precision in every project, no matter the scale.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 ">
           <div class="core_values_box text_align_center">
-            <i><img src="images/trust (2).png" alt="#" /></i>
+            <i><img src="images/cust_128.png" alt="#" /></i>
             <h3>3.Client-Centric Approach:</h3>
             <p>Ensuring the utmost satisfaction of our clients by understanding their unique needs and delivering tailored solutions.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 ">
           <div class="core_values_box text_align_center">
-            <i><img width="110px" src="images/trust (2).png" alt="#" /></i>
+            <i><img width="110px" src="images/innovation_128.png" alt="#" /></i>
             <h3>4.Innovation:</h3>
             <p>Continuously evolving and adopting the latest technologies to stay at the forefront of the marine HVAC industry.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 ">
           <div class="core_values_box text_align_center">
-            <i><img width="110px" src="images/trust (2).png" alt="#" /></i>
+            <i><img width="110px" src="images/team_128.png" alt="#" /></i>
             <h3>5.Teamwork:</h3>
-            <p>- Valuing the combined strength and expertise of our team, fostering a collaborative environment for shared success.</p>
+            <p>Valuing the combined strength and expertise of our team, fostering a collaborative environment for shared success.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 ">
           <div class="core_values_box text_align_center">
-            <i><img width="110px" src="images/trust (2).png" alt="#" /></i>
+            <i><img width="110px" src="images/safety_128.png" alt="#" /></i>
             <h3>6.Safety:</h3>
             <p>Prioritizing the safety of both our clients and our team, ensuring every project aligns with top industry safety standards.</p>
           </div>
@@ -377,7 +379,7 @@
                       <p class="mb-1">Monday - Friday</p>
                       <h6 class="text-light">09:00 am - 07:00 pm</h6>
                       <p class="mb-1">Saturday</p>
-                      <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                      <h6 class="text-light">09:00 am - 07:00 pm</h6>
                       <p class="mb-1">Sunday</p>
                       <h6 class="text-light">Closed</h6>
                   </div>
@@ -422,7 +424,8 @@
  
 
 </div>
-
+<script type="text/javascript" src="js/counterup.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
   <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->

@@ -43,6 +43,13 @@ $(".client_owl-carousel").owlCarousel({
 // Initiate the wowjs
 new WOW().init();
 
+ // Stats counter
+ $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 2000
+});
+
+
 
 /** google_map js **/
 function myMap() {
