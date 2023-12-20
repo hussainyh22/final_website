@@ -1351,9 +1351,13 @@ justify-content: space-between;
           margin: 0;
       }
 
+
       .services .services_box figure img {
           width: 100%;
           margin-top: -65px;
+          height: 250px; 
+          object-fit: cover;
+          width: 100%;
       }
 
       .services .read_more {
