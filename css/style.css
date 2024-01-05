@@ -1344,6 +1344,7 @@ justify-content: space-between;
       .services_box {
           background: #fff;
           padding: 0 20px 50px 20px;
+          border-radius:14px;
       }
 
       .services .services_box figure {
@@ -1357,6 +1358,7 @@ justify-content: space-between;
           height: 250px; 
           object-fit: cover;
           width: 100%;
+          border-radius:14px;
       }
 
       .services .read_more {
