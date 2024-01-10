@@ -1426,3 +1426,55 @@ justify-content: space-between;
       .my-float{
         margin-top:16px;
       }
+
+/*about us.html*/
+
+.container-aboutus .about-cont img{
+  /* border-radius: 7px;
+  border:1px solid black;
+  box-shadow: 2px 3px 4px 5px; */
+  height: auto;
+  width: 100%;
+  overflow:hidden;
+  object-fit: contain;
+}
+
+
+.container-aboutus .about-cont {
+  margin-top:20px;
+  background-color: white;
+  border-radius: 25px;
+  /* border-top:1px solid black; */
+  /* box-shadow: 2px 2px 2px 3px; */ 
+}
+
+
+.container {
+  overflow: hidden; /* Clear the float to contain both elements */
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 50%; 
+  float: left; 
+  margin-right: 14px; 
+  border-radius:19px;
+}
+
+.container .text-box p{
+  margin-top: 0px;
+}
+
+.pion-blue{
+  color:#03497B;
+}
+.str_title{
+  font-size:xx-large;
+  font-weight: 900;
+  text-align: center;
+
+}
+.str_sub{
+  font-size:x-large;
+  font-weight: 700;
+}
