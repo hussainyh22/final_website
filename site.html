@@ -20,7 +20,7 @@
     <meta name="author" content="Aneesa Naik">
     <link rel="shortcut icon" href="images/favicon.png" type="">
 
-    <title> Pioneer Marine Refrigeration and HVAC | Products | Compressors</title>
+    <title> Pioneer Marine Refrigeration and HVAC | Products </title>
 
     <link rel="stylesheet" href="animate/animate.min.css">
     <!-- bootstrap core css -->
@@ -47,48 +47,76 @@
 <link rel="icon" href="images/pioneer_favicon.png" type="image/x-icon">
 
 </head>
+<style>
+    .service {
+        width: 100%;
+        height: 1250px; /* Set your desired height */
+        overflow: hidden;
+        animation: fadeInOut 10s infinite alternate; /* 10 seconds duration, alternate between fade in and out */
+    }
+
+    .service img {
+        margin-top: 75px;
+        width: 95%;
+        height: 90%;
+        opacity: 0; /* Start with 0 opacity */
+        animation: fadeIn 5s forwards; /* 5 seconds duration, forward animation to keep the final state */
+    }
+
+    @keyframes fadeInOut {
+        to {
+            opacity: 1; /* Fade in at the end of each iteration */
+        }
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1; /* Fade in at the end of the animation */
+        }
+    }
+</style>
+
 
 
 <body>
-
-     <!-- whatsapp API -->
-  <a href="https://api.whatsapp.com/send?phone=919324190140&text=Hello%20Team%20Pioneer%20marine%20refrigeration%20and%20HVAC." class="float" target="_blank">
+ <!-- whatsapp API -->
+ <a href="https://api.whatsapp.com/send?phone=919324190140&text=Hello%20Team%20Pioneer%20marine%20refrigeration%20and%20HVAC." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
     </a>
 
   <!--  end whatsapp API -->
-     <!-- Topbar Start -->
-     <div class="hero_area">
-        <header class="header_section">
-            <div class="container-fluid pion-bg py-2 d-none d-lg-flex">
-              <div class="container">
-                  <div class="d-flex justify-content-between topbar">
-                      <div class="top-info">
-                          <small class="me-3" ><a href="https://www.google.com/maps/place/Pioneer+Marine+Refrigeration+and+HVAC/@18.964629,72.843955,19z/data=!4m6!3m5!1s0x3be7cf722d6c21cb:0x9f491c7198d24afc!8m2!3d18.9646289!4d72.8439552!16s%2Fg%2F11l2zb65tz?hl=en&entry=ttu">
-                          <i class="fa-solid fa-location-dot text-white"></i> Pioneer Marine Refrigeration and HVAC</a> </small>
-                          <small class="me-3 "><a href="mailto:info@pioneermarinehvac.com"><i class="fa fa-envelope" aria-hidden="true"></i> info@pioneermarinehvac.com</a></small>
-                          <small class="me-3" > <a href="callto: +919819019023"><i class="fa fa-phone" aria-hidden="true"></i> +91 9819019023</a></small>
-                      </div>
-                      
-                      <div class="top-link">
-                        <a href="">
-                          <i class="fa-brands fa-x-twitter"></i>
-                      </a>
-                      <a href="">
-                          <i class="fa-brands fa-facebook-f"></i>
-                      </a>
-                      <a href="">
-                          <i class="fa-brands fa-instagram"></i>
-                      </a>
-                        <a href="">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                      </div>
+   <!-- Topbar Start -->
+   <div class="hero_area">
+    <header class="header_section">
+        <div class="container-fluid pion-bg py-2 d-none d-lg-flex">
+          <div class="container">
+              <div class="d-flex justify-content-between topbar">
+                  <div class="top-info">
+                      <small class="me-3" ><a href="https://www.google.com/maps/place/Pioneer+Marine+Refrigeration+and+HVAC/@18.964629,72.843955,19z/data=!4m6!3m5!1s0x3be7cf722d6c21cb:0x9f491c7198d24afc!8m2!3d18.9646289!4d72.8439552!16s%2Fg%2F11l2zb65tz?hl=en&entry=ttu">
+                      <i class="fa-solid fa-location-dot text-white"></i> Pioneer Marine Refrigeration and HVAC</a> </small>
+                      <small class="me-3 "><a href="mailto:info@pioneermarinehvac.com"><i class="fa fa-envelope" aria-hidden="true"></i> info@pioneermarinehvac.com</a></small>
+                      <small class="me-3" > <a href="callto: +919819019023"><i class="fa fa-phone" aria-hidden="true"></i> +91 9819019023</a></small>
+                  </div>
+                  
+                  <div class="top-link">
+                    <a href="">
+                      <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="">
+                      <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="">
+                      <i class="fa-brands fa-instagram"></i>
+                  </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
                   </div>
               </div>
           </div>
-          
-      <!-- Topbar End -->
+      </div>
+      
+  <!-- Topbar End -->
     <!-- navbar -->
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light custom">
@@ -130,7 +158,7 @@
                             <li class="nav-item">
                                 <a class="nav-link site" href="./site.html">Sites</a>
                             </li>
-                            
+                          
                             <li class="nav-item">
                                 <a class="nav-link contact" href="contact.html">Contact us</a>
                             </li>
@@ -150,8 +178,7 @@
         <nav aria-label="breadcrumb ">
             <ol class="breadcrumb justify-content-end">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="Product.html">Products</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Compressors</li>
+                <li class="breadcrumb-item active" aria-current="page">Site</li>
             </ol>
             <!-- </div> -->
         </nav>
@@ -159,91 +186,8 @@
 
 
         <!-- products -->
-        <div class="services">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s"
-                        style="max-width: 600px; margin-top: 10px;">
-                        <h1 class="display-5 mb-4">Compressors</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="bg_full">
-                <div class="container">
-                    <div class="row">
-                        <!-- Product 1 -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 product_container margin_bott">
-                            <div id="color_chang" class="services_box">
-                                <figure>
-                                    <!-- Add your product image source here -->
-                                    <img src="images/compressor 29.jpg" alt="Reciprocating Compressor">
-                                </figure>
-                                <a href="#">
-                                    <!-- Add your product name here -->
-                                    <h3>Reciprocating</h3>
-                                </a>
-                            </div>
-                        </div>
-    
-                        <!-- Product 2 -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 product_container margin_bott">
-                            <div id="color_chang" class="services_box">
-                                <figure>
-                                    <!-- Add your product image source here -->
-                                    <img src="images/comprssor 31.jpg" alt="Hermetic Compressor">
-                                </figure>
-                                <a href="#">
-                                    <!-- Add your product name here -->
-                                    <h3>Hermetic</h3>
-                                </a>
-                            </div>
-                        </div>
-    
-                        <!-- Product 3 -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 product_container margin_bott">
-                            <div id="color_chang" class="services_box">
-                                <figure>
-                                    <!-- Add your product image source here -->
-                                    <img src="images/comprssr 34.jpg" alt="Semi Hermetic Compressor">
-                                </figure>
-                                <a href="#">
-                                    <!-- Add your product name here -->
-                                    <h3>Semi Hermetic</h3>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Product 4 -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 product_container margin_bott">
-                            <div id="color_chang" class="services_box">
-                                <figure>
-                                    <!-- Add your product image source here -->
-                                    <img src="images/Untitled 31.png" alt="Scroll Compressor">
-                                </figure>
-                                <a href="#">
-                                    <!-- Add your product name here -->
-                                    <h3>Scroll</h3>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Product 5 -->
-                        <div class="col-xl-4 col-lg-6 col-md-6 product_container margin_bott">
-                            <div id="color_chang" class="services_box">
-                                <figure>
-                                    <!-- Add your product image source here -->
-                                    <img src="images/WhatsApp Image 2023-10-11 at 12.18.21 PM (2).jpeg" alt="Screw">
-                                </figure>
-                                <a href="#">
-                                    <!-- Add your product name here -->
-                                    <h3>Screw</h3>
-                                </a>
-                            </div>
-                        </div>
-                        
-    
-    
-                    </div>
-                </div>
-            </div>
+        <div class="service animate__animated animate__fadeIn">
+            <img src="./images/Service Network (1).png" alt="Service Image">
         </div>
     <!-- end products -->
 
@@ -264,7 +208,7 @@
                                     Call Us: <br> +91 98190 19023
                                 </span>
                             </a>
-                           
+                            
                             <br>
                             <a href="mailto:info@pioneermarinehvac.com">
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
