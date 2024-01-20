@@ -564,11 +564,12 @@ a:focus {
   max-width:1200px; 
   margin: 0 auto; 
 }
-/* .custom .navbar-nav  .nav-item  .active-nav
+.header_section .container-fluid .navbar .nav-item .active-nav
 {
-  background-color: #add0ee;
-  color:rgb(255, 255, 255);
-} */
+  background-color:#03497B ;
+  color:rgb(255, 255, 255)  ;
+
+}
 
 .custom .navbar-nav .nav-item .nav-link{
   color:#000000;
