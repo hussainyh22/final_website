@@ -1478,6 +1478,9 @@ justify-content: space-between;
   width: 100%;
   overflow:hidden;
   object-fit: contain;
+  opacity: 0; /* Start with 0 opacity */
+  animation: fadeIn 5s forwards; /* 5 seconds duration, forward animation to keep the final state */
+
 }
 
 
@@ -1485,10 +1488,22 @@ justify-content: space-between;
   margin-top:20px;
   background-color: white;
   border-radius: 25px;
+  animation: fadeInOut 10s infinite alternate; /* 10 seconds duration, alternate between fade in and out */
   /* border-top:1px solid black; */
   /* box-shadow: 2px 2px 2px 3px; */ 
 }
+@keyframes fadeInOut {
+  to {
+      opacity: 1; /* Fade in at the end of each iteration */
+  }
+}
 
+@keyframes fadeIn {
+  to {
+      opacity: 1;  
+      /* Fade in at the end of the animation */
+  }
+}
 
 .container {
   overflow: hidden; /* Clear the float to contain both elements */
