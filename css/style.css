@@ -469,6 +469,47 @@ a:focus {
 }
 /**End About us section index.html **/
 
+/*** Topbar Start ***/
+
+.topbar {
+  letter-spacing: 1px;
+}
+.pion-bg
+{
+  background-color: #03497B !important;
+  padding:0px !important;
+}
+
+.topbar .top-info {
+  align-items: center;
+}
+
+.topbar .top-info small {
+  margin-right: 20px;
+  color: white ;
+}
+.topbar .top-info a{
+  color: white ;
+
+}
+
+.topbar .top-link {
+  display: flex;
+  align-items: center;
+}
+
+.topbar .top-link a {
+  padding-right: 10px;
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+@keyframes mymove {
+  from { left: -100%; }
+  to { left: 100%; }
+}
+
+/*** Topbar End ***/
 
 /*header section*/
 .hero_area {
@@ -755,13 +796,13 @@ a:focus {
 .breadcrumb{
   margin: 20 auto;
   position: relative;
-  top:60px;
+  top:90px;
   width: 100%;
   padding:30px;
 }
 .breadcrumb-text {
   position: absolute;
-  top: 50%;
+  top: 90%;
   right: 0;
   transform: translateY(-50%);
   z-index: 1; }
