@@ -490,7 +490,7 @@ a:focus {
 }
 .topbar .top-info a{
   color: white ;
-
+  vertical-align: middle;
 }
 
 .topbar .top-link {
