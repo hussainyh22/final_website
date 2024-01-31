@@ -21,6 +21,60 @@ body {
     flex-basis: calc(33.3333% - 20px);
   }
 }
+/* Individual products  */
+.btn_red
+{
+  position: relative;
+  width: 100%;
+  background-color: #801905;
+  color: #fff;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 7px;
+}
+.btn_red:hover{
+  color: #801905;
+  background-color: #fff;
+}
+.btn_green{
+  position: relative;
+  width: 100%;
+  background-color: #1DAA61;
+  color: #fff;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 7px;
+}
+.btn_green:hover{
+  color: #1b9429;
+  background-color: #fff;
+}
+.btn_blue{
+  position: relative;
+  width: 100%;
+  background-color: #03497b;
+  color: #fff;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 7px;
+}
+.btn_blue:hover{
+  color: #03497b;
+  background-color: #fff;
+}
+.dropdown-toggle{
+padding: 8px 16px;
+cursor: pointer;
+ border: 0px !important;
+}
+
+.text-grey{
+  color: #696969;
+}
+.text-black{
+  color: #000000;
+  font-weight: bolder;
+}
 
 /*Individual Products bottom carousel */
 .bottom-carousel-container {
@@ -396,10 +450,10 @@ a:focus {
   flex-wrap: nowrap;
 }
 .navbar .dropdown-toggle {
-  color: #000000;
+  /* color: #000000; */
   padding: 8px 16px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  /* transition: background-color 0.3s, color 0.3s; */
 }
 
 /* Dropdown menu styling */
