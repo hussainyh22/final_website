@@ -1023,6 +1023,8 @@ a:focus {
   height: 250px;
   object-fit: cover;
   width: 100%;
+  border:1px solid black;
+  /* border-style: outset; */
   border-radius: 14px;
 }
 
