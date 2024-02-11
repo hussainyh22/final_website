@@ -84,6 +84,11 @@
   padding:30px;
 }
 
+.outer .inner{
+  width: auto;
+  padding-top: 25px;
+
+}
 
 }
 
@@ -132,6 +137,11 @@
     height: 40px;
     border-radius: 50px;
   }
+
+
+ 
+
+
 }
 
 
