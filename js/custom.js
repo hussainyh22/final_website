@@ -59,3 +59,42 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+var slideIndex = 0;
+
+        function showCards() {
+            const cards = document.querySelectorAll('.card');
+            const slider = document.querySelector('.slider');
+            slider.style.transform = `translateX(${-slideIndex * 1050}px)`; // Adjust card width + margin
+        }
+
+        function moveSlider(n) {
+            const cards = document.querySelectorAll('.card');
+            if (slideIndex + n < 0 || slideIndex + n >= cards.length) return;
+            slideIndex += n;
+            showCards();
+        }
+
+        // Sample data (You can replace this with your actual data)
+        const relatedProducts = [
+            { name: 'Hitachi Scroll Compresso', image: 'images/hitachi (1).png' },
+            { name: 'Sanyo Scroll Compressor', image: 'images/sanyo (1).png' },
+            { name: 'Daikin Scroll Compressor', image: 'images/daikin (1).png' },
+
+            { name: 'Performer Scroll Compressor', image: 'images/performer.png' },
+            { name: 'Copeland Scroll Compressor', image: 'images/img2.png' },
+            // Add more products as needed
+        ];
+
+        const cardsContainer = document.querySelector('.cards');
+        relatedProducts.forEach(product => {
+            const card = document.createElement('div');
+            card.classList.add('card');
+            card.innerHTML = `
+    <img src="${product.image}" alt="${product.name}">
+    <h3>${product.name}</h3>
+  `;
+            cardsContainer.appendChild(card);
+        });
+
+        showCards();
