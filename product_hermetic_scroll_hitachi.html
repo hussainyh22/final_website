@@ -21,7 +21,72 @@
     <meta name="author" content="Aneesa Naik">
     <link rel="shortcut icon" href="images/favicon.png" type="">
  
+    <style>
+        @keyframes fadeUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
+        .fade-up {
+            animation: fadeUp 2s ease-out forwards;
+        }
+
+        
+        /* Fade Down Animation */
+        @keyframes fadeDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-down {
+            animation: fadeDown 1s ease-out forwards;
+        }
+
+        /* Fade Left Animation */
+        @keyframes fadeLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .fade-left {
+            animation: fadeLeft 1s ease-out forwards;
+        }
+
+        /* Fade Right Animation */
+        @keyframes fadeRight {
+            0% {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .fade-right {
+            animation: fadeRight 1s ease-out forwards;
+        }
+
+    </style>
     
 
 
@@ -169,11 +234,11 @@
         </nav> <br><br>
 
 
-        <div class="container mt-sm-5">
+        <div class="container mt-sm-5 fade-up">
             <!-- Product Details Section -->
-            <div class="row">
+            <div class="row ">
                 <!-- Product Images and Slideshow -->
-                <div class="col-md-6 product-images">
+                <div class="col-md-6 product-images fade-left">
                     <div id="carouselExample" class="carousel slide" data-ride="carousel">
                         <!-- Add your carousel items here -->
                         <div class="carousel-inner">
@@ -195,7 +260,7 @@
                 </div>
 
                 <!-- Product Description Section -->
-                <div class="col-md-6">
+                <div class="col-md-6 fade-right">
                     <h1>Hitachi Scroll Compressor</h1><br>
                     <!-- Introduction and Details -->
                     <div class="product-description">
