@@ -480,7 +480,7 @@ a:focus {
 .core_values {
   background: #fff;
   padding-bottom: 30px;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .core_values .titlepage p {
@@ -488,7 +488,9 @@ a:focus {
   color: #000000;
   padding-top: 15px;
 }
-
+.core_values .titlepage h2 {
+  padding-bottom: 30px;
+}
 .core_values_box {
   background: #fff;
   margin-bottom: 60px;
@@ -574,6 +576,7 @@ a:focus {
 }
 .about_section .detail-box {
   padding-top: 30px;
+  
 }
 
 .about_section .detail-box a {
@@ -708,6 +711,39 @@ a:focus {
 }
 
 /* end stats section section */
+
+/* Poducts Home Page */
+.bg_2{
+  background: #e9ebec;
+  padding: 50px 0px 20px 0px;
+}
+.prod_home{
+  margin-left:10px;
+ margin-top: 0px;
+  padding-bottom:60px;
+  position: block;
+}
+.container .detail-box2{
+  padding: 5px;
+  text-align: center;
+}
+.container .detail-box2 a{
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #024270;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+}
+.detail-box2 a:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+}
 
 /*Contact us.html*/
 .contact_section {
@@ -909,15 +945,6 @@ a:focus {
 
 .services {
   margin-top: 90px;
-}
-
-.services .titlepage h2 {
-  padding-bottom: 20px;
-}
-
-.services .titlepage span {
-  font-size: 17px;
-  line-height: 28px;
 }
 
 .services_box {
